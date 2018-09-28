@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PersuitWeather</string>
+    <string name="current_time">Time</string>
+    <string name="high_temp">100 C</string>
+    <string name="low_temp">0 C</string>
+    <string name="high">HIGH:</string>
+    <string name="low">LOW:</string>
+    <string name="WW_Domain">http://api.aerisapi.com/forecasts/</string>
+    <string name="error_no_internet">Unable to get Matches. Please try again later.</string>
+    <string name="rotation_text">listBeforeRotation</string>
+    <string name="fahrenheit">%1$s \u00b0F</string>
+    <string name="menu_fahrenheit">\u00b0F</string>
+    <string name="celsius">%1$s \u00b0C</string>
+    <string name="celsius_menu">\u00b0C</string>
+    <string name="date">%1$s, %2$s %3$s</string>
+    <string name="date_format">yyyy-MM-dd</string>
+    <string name="drawable">drawable</string>
+
+</resources>
