@@ -77,7 +77,6 @@ public class WeatherAdapter extends RecyclerView.Adapter<WeatherAdapter.WeatherV
             String maxC = String.format(itemView.getResources().getString(R.string.celsius), String.valueOf(periods.getMaxtempc()));
             String minC = String.format(itemView.getResources().getString(R.string.celsius), String.valueOf(periods.getMintempc()));
             String maxF = String.format(itemView.getResources().getString(R.string.fahrenheit), String.valueOf(periods.getMaxtempf()));
-            //String maxF = periods.getMaxtempf()+" "+itemView.getResources().getString(R.string.fahrenheit);
             String minF = String.format(itemView.getResources().getString(R.string.fahrenheit), String.valueOf(periods.getMintempf()));
             String date = formatDate(periods.getDatetimeiso());
             timeText.setText(date);

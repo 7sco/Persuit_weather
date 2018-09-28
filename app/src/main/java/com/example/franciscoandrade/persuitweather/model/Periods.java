@@ -1,12 +1,21 @@
 package com.example.franciscoandrade.persuitweather.model;
 
-public class Periods {
+import com.google.gson.annotations.SerializedName;
+
+import java.io.Serializable;
+
+public class Periods implements Serializable{
 
     private String icon;
+    @SerializedName("minTempF")
     private int mintempf;
+    @SerializedName("minTempC")
     private int mintempc;
+    @SerializedName("maxTempF")
     private int maxtempf;
+    @SerializedName("maxTempC")
     private int maxtempc;
+    @SerializedName("dateTimeISO")
     private String datetimeiso;
 
     public String getIcon() {
